@@ -29,7 +29,7 @@
     <preference name="prerendered-icon" value="false" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-installLocation" value="auto" />
-    <preference name="phonegap-version" value="cli-5.3.1" />
+    <preference name="phonegap-version" value="cli-5.2.0" />
  
     <!-- Optional: Custom platform-specific preferences, for features not supported via config.xml preferences. -->
     <!-- Docs: http://docs.build.phonegap.com/en_US/configuring_config_file_element.md.html -->
