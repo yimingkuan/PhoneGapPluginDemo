@@ -67,7 +67,7 @@
     <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
     <!-- Required for all platform builds on PGB 4.0.0+ -->
     <gap:plugin source="npm" name="cordova-plugin-whitelist" version="1.0.0" />
-    <gap:plugin source="npm" name="cordova-plugin-crosswalk-webview" />
+    <!--<gap:plugin source="npm" name="cordova-plugin-crosswalk-webview" />-->
 
     <!-- Icons and splash screens -->
     <!-- http://docs.build.phonegap.com/en_US/configuring_icons_and_splash.md.html -->
