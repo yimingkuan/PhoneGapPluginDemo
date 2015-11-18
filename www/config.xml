@@ -50,6 +50,7 @@
     </platform>
     <platform name="android">
         <preference name="android-installLocation" value="auto" />
+        <param name="XWALK_COMMANDLINE" value="--disable-pull-to-refresh-effect" />
         <icon src="res/icon/android/icon-36-ldpi.png" gap:qualifier="ldpi" />
         <icon src="res/icon/android/icon-48-mdpi.png" gap:qualifier="mdpi" />
         <icon src="res/icon/android/icon-72-hdpi.png" gap:qualifier="hdpi" />
@@ -115,7 +116,7 @@
     <gap:plugin source="npm" name="cordova-plugin-statusbar" />
     <gap:plugin source="npm" name="cordova-plugin-vibration" />
     <gap:plugin source="npm" name="cordova-plugin-whitelist" />
-    <!--<gap:plugin source="npm" name="cordova-plugin-crosswalk-webview" />-->
+    <gap:plugin source="npm" name="cordova-plugin-crosswalk-webview" />
 
     <!-- Icons and splash screens -->
     <!-- http://docs.build.phonegap.com/en_US/configuring_icons_and_splash.md.html -->
