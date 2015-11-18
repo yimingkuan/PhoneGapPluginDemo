@@ -42,6 +42,11 @@
         <splash src="res/splash/ios/Default-Landscape.png" width="1024" height="768" />
         <splash src="res/splash/ios/Default-Portrait@2x.png" width="1536" height="2048" />
         <splash src="res/splash/ios/Default-Landscape@2x.png" width="2048" height="1536" />
+        <gap:config-file parent="UISupportedInterfaceOrientations" mode="replace">
+            <array>
+                <string>UIInterfaceOrientationPortrait</string>
+            </array>
+        </gap:config-file>
     </platform>
     <platform name="android">
         <preference name="android-installLocation" value="auto" />
@@ -85,11 +90,7 @@
  
     <!-- Optional: Custom platform-specific preferences, for features not supported via config.xml preferences. -->
     <!-- Docs: http://docs.build.phonegap.com/en_US/configuring_config_file_element.md.html -->
-    <!--<gap:config-file platform="ios" parent="UISupportedInterfaceOrientations" mode="replace">
-        <array>
-            <string>UIInterfaceOrientationPortrait</string>
-        </array>
-    </gap:config-file>-->
+    <!---->
  
     <!-- Plugins. Add only those required by the app. -->
     <!-- Core plugin docs are at https://github.com/apache/[PLUGIN-NAME] -->
