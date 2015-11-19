@@ -70,11 +70,11 @@
         <splash gap:qualifier="xxhdpi" src="res/splash/android/xxhdpi.png" />
         <splash gap:qualifier="xxxhdpi" src="res/splash/android/xxxhdpi.png" />
     </platform>
-    <platform name="winphone">
+    <!--<platform name="winphone">
         <icon src="res/icon/winphone/icon.png" />
         <icon src="res/icon/winphone/tileicon.png" gap:role="background" />
         <splash src="splash/winphone/splash.jpg" />
-    </platform>
+    </platform>-->
  
     <!-- Optional: Customize your app and platform with the preference element. -->
     <!-- PhoneGap Build ones: http://docs.build.phonegap.com/en_US/configuring_preferences.md.html -->
